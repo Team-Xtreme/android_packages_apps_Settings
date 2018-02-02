@@ -70,6 +70,12 @@
                 <intent android:action="android.settings.SHOW_SAFETY_AND_REGULATORY_INFO" />
         </Preference>
 
+        <!-- Device Maintainer -->
+        <Preference
+                android:key="device_maintainer"
+                android:title="@string/device_maintainer"
+                android:summary="@string/device_maintainers_name" />
+
         <!-- Device hardware model -->
         <Preference
                 android:key="device_model"
